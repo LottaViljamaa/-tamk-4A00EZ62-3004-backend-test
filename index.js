@@ -18,7 +18,7 @@ const server = app.listen(port, () => {
 })
 
 var pool = mysql.createPool(config);
-app.get("/", (req, res) => {
+app.get("/locations", (req, res) => {
   pool.query("SELECT * from location", (error, results) => {
     if (error) {
       console.log(error);
