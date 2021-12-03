@@ -1,0 +1,26 @@
+{
+  "name": "-tamk-4a00ez62-3004-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LottaViljamaa/-tamk-4A00EZ62-3004-backend-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LottaViljamaa/-tamk-4A00EZ62-3004-backend-test/issues"
+  },
+  "homepage": "https://github.com/LottaViljamaa/-tamk-4A00EZ62-3004-backend-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
